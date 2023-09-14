@@ -10,7 +10,7 @@ print(result)
 
 # Task 2: Calculate the remainder when 145 is divided by 12 using modulo and print the result.
 
-divide = 145%12
+divide = 145 % 12
 print(divide)
 
 # Task 3: Raise 7 to the power of 3 and print the result.
@@ -24,6 +24,7 @@ numbers = [23, 89, 12, 54, 92, 65, 71, 13, 45]
 # Use the max() and min() functions to find the highest and lowest number respectively.
 print(max(numbers))
 print(min(numbers))
+
 # Task 5: Round the number 12.5678 to 2 decimal places.
 num1 = 12.5678
 print(round(num1, 2))
@@ -51,6 +52,6 @@ quantities = [3, 5, 2, 4, 6]
 
 print(sum(prices) * sum(quantities))
 
-average = sum(prices) * sum(quantities)/5
+average = sum(prices) * sum(quantities) / 5
 print(round(average, 2))
 #################### END OF ADVANCED PROBLEM SET ####################
